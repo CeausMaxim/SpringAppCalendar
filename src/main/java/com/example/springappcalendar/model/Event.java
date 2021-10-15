@@ -1,6 +1,8 @@
 package com.example.springappcalendar.model;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 
@@ -17,4 +19,5 @@ public class Event {
 
     @Column(name = "date")
     private Integer date;
+
 }
